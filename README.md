@@ -4,6 +4,8 @@ Googleドライブのファイルとかを自分のGoogle権限でプレビュ�
 
 ## 概要
 
+![image](https://github.com/user-attachments/assets/129af0f5-a8c0-4cf6-8e29-58f6d8cda6aa)
+
 1. DiscordでGoogleドライブのファイルを貼る
 2. Botがチャットを受け取る
 3. GoogleドライブのURLを抽出してGASに送信する
