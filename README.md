@@ -39,6 +39,8 @@ Discord Botのトークンと、GASのデプロイURLを取得する貼り付け
 
 リポジトリをフォークして、Renderなどでデプロイする
 
+[https://dashboard.render.com/](https://dashboard.render.com/)
+
 環境変数としてDiscord Botのトークンと、GASのデプロイURLを貼り付ける
 
 ```
