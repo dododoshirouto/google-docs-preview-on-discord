@@ -1,10 +1,15 @@
 
-const { Client, GatewayIntentBits } = require("discord.js");
-const axios = require("axios");
+// const { Client, GatewayIntentBits } = require("discord.js");
+// const axios = require("axios");
+import { Client, GatewayIntentBits } from "discord.js";
+import axios from "axios";
+
+import dotenv from "dotenv";
+dotenv.config();
 
 // ** require arrow "Message Content Intent" in Discord Developer Portal
-const DISCORD_TOKEN = "";
-const GAS_ENDPOINT = "";
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
+const GAS_ENDPOINT = process.env.GAS_ENDPOINT;
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]

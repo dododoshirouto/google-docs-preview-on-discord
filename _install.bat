@@ -1,4 +1,5 @@
 ﻿
 @echo off
-npm init -y
+call npm init -y
+call npm install dotenv
 call npm install discord.js axios
