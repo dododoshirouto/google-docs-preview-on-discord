@@ -31,10 +31,12 @@ root/
 
 Discord Developer PortalにBotを登録する
 
+`Message Content Intent`を有効にする
+
 ### トークンとエンドポイントの設定
 
 Discord Botのトークンと、GASのデプロイURLを貼り付ける
 
 ### Renderなどにデプロイ
 
-`_deploy.bat`を実行する
+GitHubをフォークして、Renderなどでデプロイする

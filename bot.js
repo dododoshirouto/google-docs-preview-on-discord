@@ -1,6 +1,4 @@
 
-// const { Client, GatewayIntentBits } = require("discord.js");
-// const axios = require("axios");
 import { Client, GatewayIntentBits } from "discord.js";
 import axios from "axios";
 
