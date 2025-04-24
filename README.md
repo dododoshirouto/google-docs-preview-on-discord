@@ -14,10 +14,6 @@ Googleドライブのファイルとかを自分のGoogle権限でプレビュ�
 
 ## 準備
 
-### Nodeの初期化
-
-`_install.bat`を実行する
-
 ### GAS
 
 GASにコードとマニフェストを貼り付ける
@@ -37,8 +33,19 @@ Discord Developer PortalにBotを登録する
 
 ### トークンとエンドポイントの設定
 
-Discord Botのトークンと、GASのデプロイURLを貼り付ける
+Discord Botのトークンと、GASのデプロイURLを取得する貼り付ける
 
 ### Renderなどにデプロイ
 
-GitHubをフォークして、Renderなどでデプロイする
+リポジトリをフォークして、Renderなどでデプロイする
+
+環境変数としてDiscord Botのトークンと、GASのデプロイURLを貼り付ける
+
+```
+DISCORD_TOKEN=Discord Botのトークン
+GAS_ENDPOINT=GASのデプロイURL
+```
+
+### そして…
+
+動く！
