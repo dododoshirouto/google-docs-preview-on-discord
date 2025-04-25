@@ -42,11 +42,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (_, res) => {
-  res.send("google docs preview bot is awake!");
+  res.send("google docs preview bot is awake!\nGoogleドライブのファイルを見るBotは稼働中なのだ！");
 });
 
 app.listen(PORT, () => {
-  console.log(`Express server listening on port ${PORT}`);
+  console.log(`Express サーバーはポート ${PORT} を使っているのだ`);
 });
 
 /**
